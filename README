@@ -1,0 +1,48 @@
+NCAA Basketball Data Cleaning & Exploratory Analysis
+
+Overview
+This project explores NCAA basketball data through data cleaning and exploratory data analysis (EDA). The goal is to transform raw, messy sports data into a clean, analyzable format and uncover meaningful insights about team and game performance throughout a season.
+
+Objectives
+
+ - Clean and preprocess raw NCAA basketball data
+
+ - Identify trends in team performance across the season
+
+ - Compare scoring patterns and game outcomes
+
+ - Create clear visualizations to communicate insights
+
+Dataset
+The dataset contains NCAA basketball game-level statistics, including team names, game dates, points scored, game location, and outcomes. The data required preprocessing to handle missing values, inconsistent team naming, and formatting issues.
+
+Tools & Technologies
+
+ - Python
+
+ - pandas & numpy for data manipulation
+
+ - matplotlib & seaborn for data visualization
+
+ - Jupyter Notebook for analysis
+
+Key Analysis
+
+ - Distribution of points scored across teams
+
+ - Home vs away performance comparisons
+
+ - Performance trends over time
+
+Identification of consistent and volatile teams
+
+Results & Insights
+The analysis highlights differences in team consistency, scoring variability, and the impact of game location on performance. These insights demonstrate how cleaned data can support better understanding of competitive dynamics in college basketball.
+
+Future Improvements
+
+ - Add player-level analysis
+
+ - Incorporate advanced efficiency metrics
+
+ - Expand to multiple seasons for longitudinal analysis
