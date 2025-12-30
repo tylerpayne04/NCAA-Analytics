@@ -49,7 +49,28 @@ plt.savefig('wins_distribution.png')
 print("Saved: wins_distribution.png")
 plt.close()
 
+# Wins by Season
+plt.figure(figsize=(10, 6))
+combined_df.groupby('SEASON')['W'].mean().plot(kind='bar')
+plt.title('Average Wins by Season')
+plt.xlabel('Season')
+plt.ylabel('Average Wins')
+plt.xticks(rotation=0)
+plt.grid(axis='y', alpha=0.5)
+plt.savefig('wins_by_season.png')
+print("Saved: wins_by_season.png")
+plt.close()
 
+# Offensive vs Defensive Rating
+plt.figure(figsize=(10, 6))
+plt.scatter(combined_df['ADJOE'], combined_df['ADJDE'], alpha=0.5)
+plt.title('Offensive vs Defensive Efficiency')
+plt.xlabel('Adjusted Offensive Efficiency')
+plt.ylabel('Adjusted Defensive Efficiency')
+plt.grid(alpha=0.3)
+plt.savefig('offense_vs_defense.png')
+print("Saved: offense_vs_defense.png")
+plt.close()
 
 print("\nAll visualizations completed and saved.")
 
