@@ -30,16 +30,22 @@ The dataset contains NCAA basketball team-level statistics across 5 seasons (202
 ## Key Analysis & Visualizations
 
 ### 1. Offensive vs Defensive Efficiency
+![Offensive vs Defensive Efficiency](offense_defense_scatter.png)
+
 - Scatter plot showing the relationship between offensive and defensive efficiency, colored by wins
 - **Key Insight**: Elite teams excel in both offense AND defense - the top-performing teams cluster in the high offense/low defense (good) region
 - Teams with balanced efficiency metrics have significantly more wins
 
 ### 2. Shooting Efficiency Correlation
+![2-Point vs 3-Point Shooting Efficiency](shooting_efficiency.png)
+
 - Analysis of 2-point vs 3-point shooting percentages and their impact on winning
 - **Key Insight**: Top 25% of teams (by wins) shoot ~3-4% better from both 2-point and 3-point range
 - Shooting efficiency strongly correlates with success
 
 ### 3. Tournament Success Factors
+![Win Distribution](wins_distribution.png)
+
 - Comparison of tournament vs non-tournament teams across multiple metrics
 - Win distribution analysis showing clear performance gaps
 
